@@ -3,20 +3,124 @@
 	<head>
 	<meta charset="utf-8">
 	<title>MUDDY PAWS</title>
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+
 	</head>
 	<body>
-		<div id="header" style="background-color:#546712;">
-			<br>
-	    <h1 style = "margin-bottom:0" color="#FFFFFF">MUDDY PAWS</h1>
-	    <br><br>
+		<div class="header" style="background-color:#59697e;float:top;">
+            <div class="realHeader">
+                <div class="logo">
+					<div class="wrapLogo">
+						<h1>MUDDY PAWS</h1>
+						<h2>ADVENTURE GEAR</h2>
+					</div>
+                    
+                </div>
+                <div class="navigationBar">
+					<ul class="navigation">
+						<li class="active">
+							<a href="./Homepage.html">HOME</a>
+						</li>
+						<li>
+							<a href="./News.html">NEWS</a>
+						</li>
+						<li>
+							<a href="./Product.html">PRODUCT</a>
+						</li>
+						<li>
+							<a href="./Community.html">COMMUNITY</a>
+						</li>
+						<li>
+							<a href="./About.html">ABOUT</a>
+						</li> 
+						<li>
+							<input type="button" id="cart">
+						</li>
+						<li>
+							<input type="button" id="profile">
+						</li>
+					</ul>
+				</div>
+                
+                <br/>
+
+                <br/>
+
+                <div class="search" style="text-align:center;">
+					<form action="" class="parent">
+						<input type="text" id="searchBar">
+						<input type="button" id="searchButton">
+					</form>
+                </div>
+                <br/>
+
+            </div>
+        </div>
+		<div class="container">
+			<div class="row">
+				<img src="img/CatHomepage.png" alt="CatHomepage" id="CatHomepage">
+				<div class="ask">
+					<h5>Want to find out more?</h5>
+					<a id="view" href="./Product.html">
+						<h7>View Products</h7>
+					</a>
+				</div>
+				<div class="recommend">
+					<h3>RECOMMENDATION</h3>
+					<div id="productSection" >
+						<ul class="products">
+							<li class="item">
+								<div class="wrap">
+									<div class="p-img">
+										<a href="./Detail.html">
+											<img width="220" src="./img/catBackpack.png">
+										</a>
+									</div>
+									<div class="p-title">
+										<a href="./Detail.html">
+											<h4>Cat Backpack</h4>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="item" >
+								<div class="wrap">
+									<div class="p-img">
+										<img width="220" src="./img/catHarness.png">
+									</div>
+									<div class="p-title">
+										<a href="./Detail.html">
+											<h4>Dog Harness</h4>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="item" >
+								<div class="wrap">
+									<div class="p-img">
+										<img width="220" src="./img/dogHarness.png">
+									</div>
+									<div class="p-title" >
+										<h4>Cat Harness</h4>
+									</div>
+								</div>
+							</li>
+							<li class="item" >
+								<div class="wrap">
+									<div class="p-img">
+										<img width="220" src="./img/dogGPS.png">
+									</div>
+									<div class="p-title">
+										<h4>Dog GPS</h4>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		
-	    <h2>ADVENTURE GEAR</h2>
-	    <section class="search">
-          <input type="text" name="patty" id="patty">
-        </section>
-	    </div>
-	    <img src="img/CatHomepage.png" alt="Davie's Burgers Logo" id="logo">
-	    <p>Want to find out more?</p>
-	    <p>View products</p>
+		
 	</body>
-</html>v
+</html>

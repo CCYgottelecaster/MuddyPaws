@@ -1,0 +1,200 @@
+
+h1, h2 {
+    font-family: "Baskerville";
+    color: #fff;
+    line-height: 60%;
+}
+h1 {
+    font-size:50px;
+    
+}
+h2 {
+    font-size:20px;
+}
+h3, h4, label {
+    font-family: "Baskerville";
+    color:#59697e;
+    font-size:20px;
+    font-weight:1000;
+}
+.selection {
+    text-align: center;
+    line-height: 250%;
+}
+h5 {
+    font-family: "Baskerville";
+    color:#59697e;
+    font-size:40px;
+    line-height: 0;
+}
+h6 {
+    font-family: "Baskerville";
+    color:#59697e;
+    font-size:15px;
+
+    font-style:italic;
+}
+h7 {
+    font-family: "Baskerville";
+    font-size: 30px;
+    margin-right: 10px;
+    color:#dabb11;
+}
+#searchBar {
+    max-width: 450px;
+    max-height: 30px;
+    width: 450px;
+    height: 30px;
+}
+button{
+    background:url(icon/search.jpg) no-repeat;
+    width:100px;
+    height:100px;
+    border:0px;
+}
+#cart {
+    background:url(icon/cart.png) no-repeat;
+}
+#profile {
+    background:url(icon/profile.png) no-repeat;
+}
+#blueCart {
+    background:url(icon/blueCart.png) no-repeat;
+}
+#like {
+    background:url(icon/like.png) no-repeat;
+}
+.logo {
+    display: inline-block;
+}
+.navigationBar {
+    display: inline-block;
+}
+a {
+    text-decoration:none;
+    color: #fff;
+    font-family: "Baskerville";
+}
+ul.navigation li {
+    font-family: "Baskerville";
+    display:inline-block;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+ul {
+    list-style:none;
+}
+.container {
+    float:center;
+    margin-top: 20px;
+}
+ul.products {
+    float:left;
+    
+}
+ul.products li {
+    padding-right: 20px;
+    font-family: "Baskerville";
+    display:inline-block;
+}
+ul.category li {
+    font-family: "Baskerville";
+    font-size: 20px;
+}
+ul.category {
+    font-family: "Baskerville";
+    color:#59697e;
+}
+.imageDetail {
+    display:inline-block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+.detail {
+    display:inline-block;
+    margin-top: 0px;
+    width: 500px;
+    border-top: 0px;
+}
+.item {
+    font-family: "Baskerville";
+    width:260px;
+    text-align:center;
+}
+.p-title {
+    font-family: "Baskerville";
+    float:left;
+}
+.wrap {
+    text-align:left;
+    width: 220px;
+}
+
+p {
+    font-family: "Baskerville";
+    font-size:15px;
+    color:#59697e;
+}
+.ask {
+    text-align:center;
+}
+#view {
+    font-family: "Baskerville";
+    text-align:right;
+    font-size:40px;
+    color:#59697e;
+}
+.filter {
+    font-family: "Baskerville";
+    height:1000px;
+    width:220px;
+    float:left;
+    margin-right:50px;
+}
+.row {
+    width: 100%;
+    max-width: 1060px;
+    min-width: 755px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+    
+}
+.container {
+    width: 100%;
+    max-width: 1060px;
+    min-width: 755;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+}
+.realHeader {
+    width: 100%;
+    max-width: 1060px;
+    min-width: 755px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+}
+.logo {
+    margin-left: 0px;
+}
+.wrapLogo {
+    text-align: right;
+}
+#CatHomepage {
+    width:100%;
+}
