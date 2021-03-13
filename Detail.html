@@ -33,51 +33,42 @@
 							<a href="./About.html">ABOUT</a>
 						</li> 
 						<li>
-							<input type="button" id="cart">
+							<input type="button" id="cart"
+							style="background:url(icon/cart.png) no-repeat">
 						</li>
 						<li>
-							<input type="button" id="profile">
+							<input type="button" id="profile"
+							style="background:url(icon/profile.png) no-repeat">
 						</li>
 					</ul>
 				</div>
-                <br/>
-                <br/>
-
-                <div class="search" style="text-align:center;">
-					<form action="" class="parent">
-						<input type="text" id="searchBar">
-						<input type="button" id="searchButton">
-					</form>
+                <br/><br/>
+                <div class="search">
+					<input type="text" id="searchBar">
+					<input type="button" id="searchButton"
+					style="background:url(icon/search.png) no-repeat">
                 </div>
-                <br/>
-
+                <br/><br/>
             </div>
         </div>
 
         
         <div class="container">
             <h6>Product > Cat Gear > Cat Backpack</h6>
-
             <div class="imageDetail">
                 <div id="productSection" >
                     <div class="p-img">
                         <img width="450" src="./img/backpack1.png">
                     </div>
-                    <ul class="products">
-                        <li class="picture">
-                            <div class="p-img">
-                                <img height="130" src="./img/backpack2.png">
-                            </div>
+                    <ul class="productsPreview">
+                        <li>
+                            <img height="130" src="./img/backpack2.png">
                         </li>
-                        <li class="picture">
-                            <div class="p-img">
-                                <img width="130" src="./img/backpack3.png">
-                            </div>
+                        <li>
+                            <img width="130" src="./img/backpack3.png">
                         </li>
-                        <li class="picture">
-                            <div class="p-img">
-                                <img width="130" src="./img/backpack4.png">
-                            </div>
+                        <li>
+                            <img width="130" src="./img/backpack4.png">
                         </li>
                     </ul>
 
@@ -85,16 +76,23 @@
 
             </div>
             <div class="detail">
-                <div id="productSection" >
-                    <h5>Cat Backpack &nbsp&nbsp&nbsp&nbsp&nbsp $22</h5>
+                <div id="detailSection" >
+                    <h5>Cat Backpack &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp $22</h5>
                     <hr>
-                    <h5>★★★★★
-                    <input type="button" id="blueCart">
-                    <input type="button" id="like"></h5>
-
+                    <div class="evaluation">
+                        <h5>★★★★★</h5>
+                    </div>
+                    <div class="operation">
+                        <input class="operation" type="button" id="cartButton"
+                            style="background:url(icon/blueCart.png) no-repeat">
+                        <input class="operation" type="button" id="likeButton"
+                            style="background:url(icon/like.png) no-repeat">
+                    </div>
                     <div class="selection">
+                        <br/>
+
                         <section class="size">
-                            <label for="size">SIZE</label>
+                            <label for="size">SIZE&nbsp</label>
                             <select name="size" id="size">
                                 <option value="small">Small</option>
                                 <option value="medium">Medium</option>
@@ -103,7 +101,7 @@
                         </section>
     
                         <section class="color">
-                            <label for="color">COLOR</label>
+                            <label for="color">COLOR&nbsp</label>
                             <select name="color" id="color">
                                 <option value="yellow">Yellow</option>
                                 <option value="blue">Blue</option>
@@ -115,9 +113,12 @@
                         </section>
     
                         <section class="quantity">
-                            <label for="quantity">QUANTITY</label>
+                            <label for="quantity">QUANTITY&nbsp</label>
                             <input type="number" name="quantity" id="quantity">
                         </section>
+                        <br/>
+					    <button type="button" id="buyButton">BUY</button>
+
                     </div>
                     
                     <h4>DESCRIPTION</h4>
@@ -126,6 +127,85 @@
                         Note: There is a layer of protective film on the backpack, please tear it off when you receive it.</p>
 
                 </div>
+            </div>
+
+            <br/><br/><br/><br/><br/><br/><hr><br/>
+
+            <div class="recommend">
+                <h3>RECOMMENDATION</h3>
+                <ul class="recommendedProducts">
+                    <li class="item">
+                        <div class="wrap">
+                            <div class="p-img">
+                                <a href="./Detail.html">
+                                    <img width="230" src="./img/catBackpack.png">
+                                </a>
+                            </div>
+                            <div class="p-title">
+                                <h4>Cat Backpack</h4>
+                                <h4>★★★★★</h4>
+                            </div>
+                            <div class="operation">
+                                <input class="operation" type="button" id="cartButton"
+                                    style="background:url(icon/blueCart.png) no-repeat">
+                                <input class="operation" type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item" >
+                        <div class="wrap">
+                            <div class="p-img">
+                                <img width="230" src="./img/catHarness.png">
+                            </div>
+                            <div class="p-title">
+                                <h4>Cat Harness</h4>
+                                <h4>★★★★★</h4>
+                            </div>
+                            <div class="operation">
+                                <input type="button" id="cartButton"
+                                style="background:url(icon/blueCart.png) no-repeat">
+                                <input type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                        
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item" >
+                        <div class="wrap">
+                            <div class="p-img">
+                                <img width="230" src="./img/dogHarness.png">
+                            </div>
+                            <div class="p-title">
+                                <h4>Dog Harness</h4>
+                                <h4>★★★☆☆</h4>
+                            </div>
+                            <div class="operation">
+                                <input class="operation" type="button" id="cartButton"
+                                    style="background:url(icon/blueCart.png) no-repeat">
+                                <input class="operation" type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item" >
+                        <div class="wrap">
+                            <div class="p-img">
+                                <img width="230" src="./img/dogGPS.png">
+                            </div>
+                            <div class="p-title">
+                                <h4>Dog GPS</h4>
+                                <h4>★★★★☆</h4>
+                            </div>
+                            <div class="operation">	
+                                <input class="operation" type="button" id="cartButton"
+                                    style="background:url(icon/blueCart.png) no-repeat">
+                                <input class="operation" type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 	</body>

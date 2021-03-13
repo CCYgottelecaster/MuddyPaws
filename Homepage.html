@@ -34,25 +34,23 @@
 							<a href="./About.html">ABOUT</a>
 						</li> 
 						<li>
-							<input type="button" id="cart">
+							<input type="button" id="cart"
+							style="background:url(icon/cart.png) no-repeat">
 						</li>
 						<li>
-							<input type="button" id="profile">
+							<input type="button" id="profile"
+							style="background:url(icon/profile.png) no-repeat">
 						</li>
 					</ul>
 				</div>
-                
-                <br/>
-
-                <br/>
-
-                <div class="search" style="text-align:center;">
-					<form action="" class="parent">
-						<input type="text" id="searchBar">
-						<input type="button" id="searchButton">
-					</form>
+                <br/><br/>
+                <div class="search">
+					<input type="text" id="searchBar">
+					<input type="button" id="searchButton"
+					style="background:url(icon/search.png) no-repeat">
                 </div>
-                <br/>
+                <br/><br/>
+
 
             </div>
         </div>
@@ -62,61 +60,83 @@
 				<div class="ask">
 					<h5>Want to find out more?</h5>
 					<a id="view" href="./Product.html">
-						<h7>View Products</h7>
+						<h7>View Products →</h7>
 					</a>
 				</div>
 				<div class="recommend">
 					<h3>RECOMMENDATION</h3>
-					<div id="productSection" >
-						<ul class="products">
-							<li class="item">
-								<div class="wrap">
-									<div class="p-img">
-										<a href="./Detail.html">
-											<img width="220" src="./img/catBackpack.png">
-										</a>
-									</div>
-									<div class="p-title">
-										<a href="./Detail.html">
-											<h4>Cat Backpack</h4>
-										</a>
-									</div>
+					<ul class="recommendedProducts">
+						<li class="item">
+							<div class="wrap">
+								<div class="p-img">
+									<a href="./Detail.html">
+										<img width="230" src="./img/catBackpack.png">
+									</a>
 								</div>
-							</li>
-							<li class="item" >
-								<div class="wrap">
-									<div class="p-img">
-										<img width="220" src="./img/catHarness.png">
-									</div>
-									<div class="p-title">
-										<a href="./Detail.html">
-											<h4>Dog Harness</h4>
-										</a>
-									</div>
+								<div class="p-title">
+									<h4>Cat Backpack</h4>
+									<h4>★★★★★</h4>
 								</div>
-							</li>
-							<li class="item" >
-								<div class="wrap">
-									<div class="p-img">
-										<img width="220" src="./img/dogHarness.png">
-									</div>
-									<div class="p-title" >
-										<h4>Cat Harness</h4>
-									</div>
+								<div class="operation">
+									<input class="operation" type="button" id="cartButton"
+										style="background:url(icon/blueCart.png) no-repeat">
+									<input class="operation" type="button" id="likeButton"
+										style="background:url(icon/like.png) no-repeat">
 								</div>
-							</li>
-							<li class="item" >
-								<div class="wrap">
-									<div class="p-img">
-										<img width="220" src="./img/dogGPS.png">
-									</div>
-									<div class="p-title">
-										<h4>Dog GPS</h4>
-									</div>
+							</div>
+						</li>
+						<li class="item" >
+							<div class="wrap">
+								<div class="p-img">
+									<img width="230" src="./img/catHarness.png">
 								</div>
-							</li>
-						</ul>
-					</div>
+								<div class="p-title">
+									<h4>Cat Harness</h4>
+									<h4>★★★★★</h4>
+								</div>
+								<div class="operation">
+									<input type="button" id="cartButton"
+									style="background:url(icon/blueCart.png) no-repeat">
+									<input type="button" id="likeButton"
+										style="background:url(icon/like.png) no-repeat">
+								</div>
+							</div>
+						</li>
+						<li class="item" >
+							<div class="wrap">
+								<div class="p-img">
+									<img width="230" src="./img/dogHarness.png">
+								</div>
+								<div class="p-title">
+									<h4>Dog Harness</h4>
+									<h4>★★★☆☆</h4>
+								</div>
+								<div class="operation">
+									<input class="operation" type="button" id="cartButton"
+										style="background:url(icon/blueCart.png) no-repeat">
+									<input class="operation" type="button" id="likeButton"
+										style="background:url(icon/like.png) no-repeat">
+								</div>
+							</div>
+						</li>
+						<li class="item" >
+							<div class="wrap">
+								<div class="p-img">
+									<img width="230" src="./img/dogGPS.png">
+								</div>
+								<div class="p-title">
+									<h4>Dog GPS</h4>
+									<h4>★★★★☆</h4>
+								</div>
+								<div class="operation">	
+									<input class="operation" type="button" id="cartButton"
+										style="background:url(icon/blueCart.png) no-repeat">
+									<input class="operation" type="button" id="likeButton"
+										style="background:url(icon/like.png) no-repeat">
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

@@ -6,7 +6,6 @@ h1, h2 {
 }
 h1 {
     font-size:50px;
-    
 }
 h2 {
     font-size:20px;
@@ -16,22 +15,30 @@ h3, h4, label {
     color:#59697e;
     font-size:20px;
     font-weight:1000;
+    vertical-align:middle;
+}
+h3 {
+    font-size:30px;
+    
+}
+.operation, .evaluation {
+    vertical-align:middle;
+
 }
 .selection {
     text-align: center;
-    line-height: 250%;
+    line-height: 40px;
 }
 h5 {
     font-family: "Baskerville";
     color:#59697e;
-    font-size:40px;
+    font-size:30px;
     line-height: 0;
 }
 h6 {
     font-family: "Baskerville";
     color:#59697e;
     font-size:15px;
-
     font-style:italic;
 }
 h7 {
@@ -40,49 +47,87 @@ h7 {
     margin-right: 10px;
     color:#dabb11;
 }
+.search {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
 #searchBar {
-    max-width: 450px;
-    max-height: 30px;
+    line-height: 0;
     width: 450px;
-    height: 30px;
+    height: 40px;
+    border: 0;
+    padding: 0;
 }
-button{
-    background:url(icon/search.jpg) no-repeat;
-    width:100px;
-    height:100px;
-    border:0px;
+
+#searchButton {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    line-height: 0;
+    background-size:40px 40px;
+    padding: 20px;
+    border: 0;
+    vertical-align:middle;
+
 }
-#cart {
-    background:url(icon/cart.png) no-repeat;
+#cart, #profile, #cartButton, #likeButton {
+    line-height: 0;
+    border: 0;
+    background-size:30px 30px;
+    padding: 15px;
 }
-#profile {
-    background:url(icon/profile.png) no-repeat;
-}
-#blueCart {
-    background:url(icon/blueCart.png) no-repeat;
-}
-#like {
-    background:url(icon/like.png) no-repeat;
-}
+
 .logo {
     display: inline-block;
 }
 .navigationBar {
     display: inline-block;
 }
+#buyButton {
+    background-color: #dabb11;
+    width: 120px;
+    height: 50px;
+    border:0px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Baskerville";
+    float: center;
+}
+
 a {
     text-decoration:none;
     color: #fff;
     font-family: "Baskerville";
 }
+.logo, .navigationBar {
+    vertical-align:middle;
+
+}
+
 ul.navigation li {
     font-family: "Baskerville";
     display:inline-block;
     color: #fff;
     padding-left: 10px;
     font-size: 20px;
+    vertical-align:middle;
 }
+.p-title {
+    text-align: left;
+    line-height: 0;
+    width: 140px;
+    display: inline-block;
 
+}
+.operation {
+    display: inline-block;
+    text-align: right;
+}
+.title .button {
+    display: inline-block;
+    
+}
 ul {
     list-style:none;
 }
@@ -90,12 +135,22 @@ ul {
     float:center;
     margin-top: 20px;
 }
-ul.products {
-    float:left;
-    
+ul.productsPreview li{
+    display:inline-block;
+
+}
+.evaluation {
+    width: 400px;
+    display:inline-block;
+
+}
+ul.recommendedProducts{
+    padding-inline-start: 0;
+}
+ul.recommendedProducts li{
+    display:inline-block;
 }
 ul.products li {
-    padding-right: 20px;
     font-family: "Baskerville";
     display:inline-block;
 }
@@ -107,11 +162,16 @@ ul.category {
     font-family: "Baskerville";
     color:#59697e;
 }
+
+.imageDetail, .detail {
+    vertical-align: top;
+}
 .imageDetail {
     display:inline-block;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 0px;
+
+    margin-right: 50px;
     overflow: hidden;
 }
 .detail {
@@ -125,13 +185,9 @@ ul.category {
     width:260px;
     text-align:center;
 }
-.p-title {
-    font-family: "Baskerville";
-    float:left;
-}
+
 .wrap {
-    text-align:left;
-    width: 220px;
+    display:inline-block;
 }
 
 p {
@@ -150,7 +206,7 @@ p {
 }
 .filter {
     font-family: "Baskerville";
-    height:1000px;
+    height:600px;
     width:220px;
     float:left;
     margin-right:50px;
@@ -183,9 +239,7 @@ p {
     max-width: 1060px;
     min-width: 755px;
     margin: 0 auto;
-    margin-top: 0px;
     margin-right: auto;
-    margin-bottom: 0px;
     margin-left: auto;
     overflow: hidden;
 }

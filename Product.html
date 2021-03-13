@@ -34,25 +34,23 @@
 							<a href="./About.html">ABOUT</a>
 						</li> 
 						<li>
-							<input type="button" id="cart">
+							<input type="button" id="cart"
+							style="background:url(icon/cart.png) no-repeat">
 						</li>
 						<li>
-							<input type="button" id="profile">
+							<input type="button" id="profile"
+							style="background:url(icon/profile.png) no-repeat">
 						</li>
 					</ul>
 				</div>
-                
-                <br/>
-
-                <br/>
-
-                <div class="search" style="text-align:center;">
-					<form action="" class="parent">
-						<input type="text" id="searchBar">
-						<input type="button" id="searchButton">
-					</form>
+                <br/><br/>
+                <div class="search">
+					<input type="text" id="searchBar">
+					<input type="button" id="searchButton"
+					style="background:url(icon/search.png) no-repeat">
                 </div>
-                <br/>
+                <br/><br/>
+
 
             </div>
         </div>
@@ -62,14 +60,14 @@
             <div class="row">
                 <h6>Product</h6>
                 <div class="filter">
-                    <h3>Product category</h3>
+                    <h4>Product category</h4>
                     <ul class="category">
                         <li>Cat Gear</li>
                         <li>Dog Gear</li>
                         <li>Harness</li>
                     </ul>
                     <hr>
-                    <h3>User evaluation</h3>
+                    <h4>User evaluation</h4>
                     <ul class="category">
                         <li>★★★★★ &up</li>
                         <li>★★★★☆ &up</li>
@@ -78,13 +76,12 @@
                         <li>★☆☆☆☆ &up</li>
                     </ul>
                     <hr>
-                    <h3>Price</h3>
+                    <h4>Price</h4>
                     <ul class="category">
                         <li>Cat Gear</li>
                         <li>Dog Gear</li>
                         <li>Harness</li>
                     </ul>
-                    <hr>
                 </div>
                 <div id="productSection" >
                     <ul class="products">
@@ -96,9 +93,14 @@
                                     </a>
                                 </div>
                                 <div class="p-title">
-                                    <a href="./Detail.html">
-                                        <h4>Cat Backpack</h4>
-                                    </a>
+                                    <h4>Cat Backpack</h4>
+                                    <h4>★★★★★</h4>
+                                </div>
+                                <div class="operation">
+                                    <input class="operation" type="button" id="cartButton"
+                                        style="background:url(icon/blueCart.png) no-repeat">
+                                    <input class="operation" type="button" id="likeButton"
+                                        style="background:url(icon/like.png) no-repeat">
                                 </div>
                             </div>
                         </li>
@@ -108,10 +110,18 @@
                                     <img width="220" src="./img/catHarness.png">
                                 </div>
                                 <div class="p-title">
-                                    <a href="./Detail.html">
-                                        <h4>Cat Harness</h4>
-                                    </a>
+                                    <h4>Cat Harness</h4>
+                                    <h4>★★★★★</h4>
                                 </div>
+                                <div class="operation">
+                                    <input type="button" id="cartButton"
+                                    style="background:url(icon/blueCart.png) no-repeat">
+                                    <input type="button" id="likeButton"
+                                        style="background:url(icon/like.png) no-repeat">
+                            
+                                </div>
+                                        
+                                
                             </div>
                         </li>
                         <li class="item" >
@@ -119,12 +129,18 @@
                                 <div class="p-img">
                                     <img width="220" src="./img/dogHarness.png">
                                 </div>
-                                <div class="p-title" >
+                                <div class="p-title">
                                     <h4>Dog Harness</h4>
+                                    <h4>★★★☆☆</h4>
+                                </div>
+                                <div class="operation">
+                                    <input class="operation" type="button" id="cartButton"
+                                        style="background:url(icon/blueCart.png) no-repeat">
+                                    <input class="operation" type="button" id="likeButton"
+                                        style="background:url(icon/like.png) no-repeat">
                                 </div>
                             </div>
                         </li>
-                        <br>
                         <li class="item" >
                             <div class="wrap">
                                 <div class="p-img">
@@ -132,11 +148,96 @@
                                 </div>
                                 <div class="p-title">
                                     <h4>Dog GPS</h4>
+                                    <h4>★★★★☆</h4>
+                                </div>
+                                <div class="operation">	
+                                    <input class="operation" type="button" id="cartButton"
+                                        style="background:url(icon/blueCart.png) no-repeat">
+                                    <input class="operation" type="button" id="likeButton"
+                                        style="background:url(icon/like.png) no-repeat">
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
+            </div>
+            <br/><br/><br/><hr><br/>
+
+            <div class="recommend">
+                <h3>RECOMMENDATION</h3>
+                <ul class="recommendedProducts">
+                    <li class="item">
+                        <div class="wrap">
+                            <div class="p-img">
+                                <a href="./Detail.html">
+                                    <img width="230" src="./img/catBackpack.png">
+                                </a>
+                            </div>
+                            <div class="p-title">
+                                <h4>Cat Backpack</h4>
+                                <h4>★★★★★</h4>
+                            </div>
+                            <div class="operation">
+                                <input class="operation" type="button" id="cartButton"
+                                    style="background:url(icon/blueCart.png) no-repeat">
+                                <input class="operation" type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item" >
+                        <div class="wrap">
+                            <div class="p-img">
+                                <img width="230" src="./img/catHarness.png">
+                            </div>
+                            <div class="p-title">
+                                <h4>Cat Harness</h4>
+                                <h4>★★★★★</h4>
+                            </div>
+                            <div class="operation">
+                                <input type="button" id="cartButton"
+                                style="background:url(icon/blueCart.png) no-repeat">
+                                <input type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                        
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item" >
+                        <div class="wrap">
+                            <div class="p-img">
+                                <img width="230" src="./img/dogHarness.png">
+                            </div>
+                            <div class="p-title">
+                                <h4>Dog Harness</h4>
+                                <h4>★★★☆☆</h4>
+                            </div>
+                            <div class="operation">
+                                <input class="operation" type="button" id="cartButton"
+                                    style="background:url(icon/blueCart.png) no-repeat">
+                                <input class="operation" type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item" >
+                        <div class="wrap">
+                            <div class="p-img">
+                                <img width="230" src="./img/dogGPS.png">
+                            </div>
+                            <div class="p-title">
+                                <h4>Dog GPS</h4>
+                                <h4>★★★★☆</h4>
+                            </div>
+                            <div class="operation">	
+                                <input class="operation" type="button" id="cartButton"
+                                    style="background:url(icon/blueCart.png) no-repeat">
+                                <input class="operation" type="button" id="likeButton"
+                                    style="background:url(icon/like.png) no-repeat">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 	</body>
