@@ -1,8 +1,7 @@
-
 h1, h2 {
   font-family: "Baskerville";
-  color: #fff;
   line-height: 60%;
+  color: #fff;
 }
 h1 {
   font-size:50px;
@@ -11,15 +10,15 @@ h2 {
   font-size:20px;
 }
 h3, h4, label {
-  font-family: "Baskerville";
-  color:#59697e;
+  vertical-align:middle;
   font-size:20px;
   font-weight:900;
-  vertical-align:middle;
+  font-family: "Baskerville";
+  color:#59697e;
 }
 h3 {
   font-size:30px;
-  
+
 }
 .operation, .evaluation {
   vertical-align:middle;
@@ -251,6 +250,6 @@ p {
 .wrapLogo {
   text-align: right;
 }
-#CatHomepage {
+#catHomepage {
   width:100%;
 }
